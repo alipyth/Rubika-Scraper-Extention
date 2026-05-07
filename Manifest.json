@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Rubika News Scraper",
+  "version": "1.0",
+  "description": "استخراج خبر و عکس از روبیکا",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "host_permissions": [
+    "*://web.rubika.ir/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "تنظیمات استخراج"
+  }
+}
